@@ -1,5 +1,6 @@
 <?php
-$sharedKey = "xxx";
+$sharedKey = json_decode(file_get_contents('/var/config.json'), true);
+$sharedKey = $sharedKey["shared"];
 $receiptdata = $_GET["data"];
 
 if ($receiptdata != "") {

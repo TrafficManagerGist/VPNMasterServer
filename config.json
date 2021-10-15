@@ -1,4 +1,5 @@
 {
+   "shared": "shared key",
     "servers":[
        {
           "ip":"35.219.155.82",
