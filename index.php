@@ -15,7 +15,7 @@ if ($receiptdata != "") {
         $server = array();
         $server["ip"] = $contents["ip"];
         $server["username"] = $contents["username"];
-        $server["pass"] = $contents["psk"];
+        $server["pass"] = $contents["pass"];
         $server["psk"] = $contents["psk"];
         $server["location"] = getLocation($contents["ip"]);
         array_push($servers, $server);
